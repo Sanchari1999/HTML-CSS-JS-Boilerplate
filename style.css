@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*Import Roboto Regular 400 and Bold 700 from Google Fonts */
+
+* {
+    box-sizing: border-box; /*If we add any padding or any border to an element, it does not actually affect the width of it.*/
+}
+/*Set universal character: We want to apply this to everything*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex; /*We want to center everything because most of the projects are going to be something that is right in the middle of the viewpoint.*/
+    /*Flex box naturally puts everything horizontally one after the other.*/
+    flex-direction: column; /*This will make all the elements go vertical again.*/
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /*Viewport Height*/
+    overflow: hidden; /*We do not want scrollbars to be shown by default.*/
+    margin: 0; /*Getting rid of the margin.*/
+}
